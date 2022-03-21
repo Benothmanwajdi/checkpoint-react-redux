@@ -2,7 +2,7 @@ import React from 'react'
 
 const Address = () => {
   return (
-    <div>Address</div>
+    <div>23 rue ifrikiya mourouj 3</div>
   )
 }
 

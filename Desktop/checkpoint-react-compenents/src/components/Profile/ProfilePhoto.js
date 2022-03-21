@@ -4,7 +4,8 @@ const ProfilePhoto = () => {
     <div>
 
 
-        <img  src="" alt="" />
+        <img  src="photo.jpg" alt="photo" width={350} />
+
     </div>
   )
 }
