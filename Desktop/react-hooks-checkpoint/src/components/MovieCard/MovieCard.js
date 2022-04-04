@@ -34,7 +34,7 @@ const MovieCard = ({ movie: { title, image, rate, year } }) => {
       </CardContent>
       <CardActions className="buttons">
         <div>
-          <Button size="small">Share</Button>
+          <Button size="small"  >Share</Button>
           <Button size="small">Learn More</Button>
         </div>
 

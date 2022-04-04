@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button, Modal, Form, Col, Row } from "react-bootstrap";
 import Stars from "../Stars/Stars";
-// import "./movieform.css";
+import "./moviecard.css"
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -68,7 +68,7 @@ const MovieForm = ({ isEdit }) => {
   return (
     <>
       <Button
-        variant="light"
+      
         className={isEdit ? "editbutton" : "addbutton"}
         onClick={() => setModalShow(true)}
       >

@@ -1,8 +1,19 @@
 .addbutton {
     margin: 0 40%;
+    background-color: aqua !important;
   }
   
   .addbutton:hover {
+    background-color: gray !important;
+    color: white !important;
+  }
+
+
+  .editbutton{
+    background-color: red !important;
+  }
+
+  .editbutton:hover {
     background-color: gray !important;
     color: white !important;
   }
